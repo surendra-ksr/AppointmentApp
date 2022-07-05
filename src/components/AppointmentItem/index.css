@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.liDiv {
+  width: 25vw;
+  border-width: 1px;
+  border-color: #b5b7c4;
+  border-style: solid;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0;
+  margin-right: 15px;
+}
+.li-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #171f46;
+  font-size: 12px;
+}
+.li-date {
+  margin-top: 0;
+  color: #b5b7c4;
+  font-weight: 500;
+}
+button {
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .liDiv {
+    width: 70vw;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .liDiv {
+    width: 35vw;
+  }
+}

@@ -1,0 +1,118 @@
+/* Write your CSS here */
+.main-div {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9897f0);
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.inner-div {
+  width: 90vw;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 50px;
+}
+.in-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-h1 {
+  margin-bottom: 40px;
+  color: #171f46;
+}
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 25vw;
+}
+.main-img {
+  width: 40vw;
+  margin: 20px;
+}
+.labelItem {
+  color: #b5b7c4;
+  margin-bottom: 5px;
+}
+input {
+  padding: 8px;
+  outline: none;
+  margin-bottom: 5px;
+  width: 25vw;
+}
+.addButton {
+  border-radius: 10px;
+  border-width: 0;
+  background-color: #8b5cf6;
+  padding: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+}
+.botDiv {
+  display: flex;
+  flex-direction: column;
+}
+.bot1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bot-h1 {
+  color: #171f46;
+}
+.startButton {
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #b5b7c4;
+  color: #b5b7c4;
+  border-radius: 10px;
+  padding: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+  font-size: 12px;
+  border-style: solid;
+  margin-left: auto;
+  cursor: pointer;
+}
+.ulDiv {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.addColor {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .main-img {
+    display: none;
+  }
+  .main-h1 {
+    font-size: 30px;
+  }
+  .bot-h1 {
+    font-size: 22px;
+  }
+
+  input {
+    width: 60vw;
+  }
+}
